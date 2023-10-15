@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-### = Tarea [Base de Datos] =
+## = Tarea [Base de Datos] =
 
 ------------
 
@@ -19,7 +19,7 @@ Definir los métodos distintos
 
 ------------
 
-##### Integrantes
+#### Integrantes  
 - Albino Espindola Jesus David
 - Fontes Fernandez Alejandro
 - Juvera Rodriguez Walter Alejandro
@@ -27,16 +27,16 @@ Definir los métodos distintos
 - Ulloa Mada Daniel Elias
 
 ------------
-####Desarrollo
+### Desarrollo
 Para el desarrollo de la actividad se utilizo el lenguaje de programación Java donde se creo una clase abstracta llamada Basedatos que sirve como plantilla para establecer los métodos y atributos generales que las clases MySQL y MariaDB deben implementar.
 
 ------------
-####Requisitos
+### Requisitos
 - Java
 - Docker
 ------------
 
-####Ejecución
+### Ejecución
 1. Clonamos el repositorio
 2. Abrimos la terminal y los desplazamos hacia el directorio donde se encuentre el proyecto.
 3. Nos aseguramos de que el archivo "init.sql" este en la misma carpeta que el archivo "docker-compose.yml"
@@ -45,13 +45,13 @@ Para el desarrollo de la actividad se utilizo el lenguaje de programación Java 
 
 ------------
 
-##### Base de Datos [unison]
+#### Base de Datos [unison]
 La base de datos "unison" unicamente contiene una sola tabla llamada "alumno"
 
-##### Tabla [alumno]
+#### Tabla [alumno]
 
-| id      | nombre | apellido |
-| --------- | -----:| |
+| id | nombre | apellido |
+| -- | ----- | ----- |
 | 1  | Jesus | Albino | 
 | 2  | Alejandro | Fontes |
 | 3  | Alejandro | Juvera |
