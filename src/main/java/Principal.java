@@ -4,7 +4,7 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        BaseDatos baseDatos = new MariaDB();
+        BaseDatos baseDatos = new MySQL();
 
         try {
             baseDatos.connect();

@@ -47,10 +47,11 @@ public abstract class BaseDatos {
         } else {
 
             Statement stmt = null;
+            ResultSet rs = null;
 
             try {
                 stmt = this.conn.createStatement();
-                ResultSet rs = stmt.executeQuery("SELECT * FROM alumno");
+                rs = stmt.executeQuery("SELECT * FROM alumno");
 
                 while (rs.next()) {
                     int id = rs.getInt(1);
