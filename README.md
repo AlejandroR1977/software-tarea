@@ -9,11 +9,11 @@
 ### Instrucciones
 Implementar las clases, ya sea abstracta o interface, para manipular dos bases de datos:
 
-1.- MariaDB
-2.- MySQL
+1.- MariaDB  
+2.- MySQL  
 
-Definir los métodos comunes
-Definir los métodos distintos
+Definir los métodos comunes  
+Definir los métodos distintos  
 
 >La idea es que se pueda reemplazar la base de datos sin hacer cambios en los lugares donde se use una instancia de base de datos
 
