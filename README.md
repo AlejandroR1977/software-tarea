@@ -25,6 +25,7 @@ Definir los métodos distintos
 - Juvera Rodriguez Walter Alejandro
 - López López Pedro Antonio
 - Ulloa Mada Daniel Elias
+- Valenzuela Valencia Alfredo
 
 ------------
 ### Desarrollo
